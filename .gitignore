@@ -1,0 +1,7 @@
+# OS interview prep — local only
+.DS_Store
+Thumbs.db
+*.log
+node_modules/
+.env
+*.oml

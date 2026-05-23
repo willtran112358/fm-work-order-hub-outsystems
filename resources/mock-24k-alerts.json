@@ -1,0 +1,58 @@
+{
+  "sites": [
+    {
+      "code": "SIN-CAMPUS-01",
+      "name": "NTU Campus Pilot",
+      "latitude": 1.3483,
+      "longitude": 103.6831
+    }
+  ],
+  "alerts": [
+    {
+      "alertId": "ALT-2024-8891",
+      "siteCode": "SIN-CAMPUS-01",
+      "assetExternalId": "24K-AHU-991",
+      "sensorType": "TEMPERATURE",
+      "severity": "CRITICAL",
+      "message": "Chiller supply temp 12 deg C exceeds threshold 9 deg C",
+      "raisedAt": "2024-11-15T08:42:00Z",
+      "status": "OPEN"
+    },
+    {
+      "alertId": "ALT-2024-8892",
+      "siteCode": "SIN-CAMPUS-01",
+      "assetExternalId": "24K-LIFT-012",
+      "sensorType": "VIBRATION",
+      "severity": "HIGH",
+      "message": "Abnormal vibration detected — Lift L12",
+      "raisedAt": "2024-11-15T09:10:00Z",
+      "status": "OPEN"
+    },
+    {
+      "alertId": "ALT-2024-8800",
+      "siteCode": "SIN-CAMPUS-01",
+      "assetExternalId": "24K-AHU-991",
+      "sensorType": "TEMPERATURE",
+      "severity": "CRITICAL",
+      "message": "Previously acknowledged alert",
+      "raisedAt": "2024-11-14T14:00:00Z",
+      "status": "ACKNOWLEDGED"
+    }
+  ],
+  "assets": [
+    {
+      "externalId": "24K-AHU-991",
+      "assetTag": "AHU-B57-01",
+      "buildingName": "Block 57",
+      "lastReading": "12°C",
+      "coordinates": { "lat": 1.3483, "lng": 103.6831 }
+    },
+    {
+      "externalId": "24K-LIFT-012",
+      "assetTag": "LIFT-L12",
+      "buildingName": "Block 57",
+      "lastReading": "0.8mm/s",
+      "coordinates": { "lat": 1.3485, "lng": 103.6830 }
+    }
+  ]
+}
