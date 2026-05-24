@@ -27,10 +27,11 @@ cd senior-outsystems-prep-book
 ```
 
 1. Open [resources/odc-studio-quickstart.md](resources/odc-studio-quickstart.md) — you’re on ODC portal  
-2. **Visual map:** [resources/dev-environment-and-practice-diagrams.md](resources/dev-environment-and-practice-diagrams.md) — ODC topology, 7-day practice, senior pillars  
-3. **Create → App → Web** → `FMWorkOrderHub` → Publish  
-4. Mock API: `node resources/mock-server.js` (+ [ngrok](resources/free-hands-on.md) for ODC REST)  
-5. Follow [03-day1-hands-on-lab.md](03-day1-hands-on-lab.md)
+2. Enroll Learn **Becoming a web developer** — [resources/odc-web-developer-path.md](resources/odc-web-developer-path.md) maps lessons ↔ labs  
+3. **Visual map:** [resources/dev-environment-and-practice-diagrams.md](resources/dev-environment-and-practice-diagrams.md) — ODC topology, 7-day practice, senior pillars  
+4. **Create → App → Web** → `FMWorkOrderHub` → Publish  
+5. Mock API: `node resources/mock-server.js` (+ [ngrok](resources/free-hands-on.md) for ODC REST)  
+6. Follow [03-day1-hands-on-lab.md](03-day1-hands-on-lab.md)
 
 ---
 

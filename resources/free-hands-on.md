@@ -2,7 +2,7 @@
 
 **Mục tiêu:** Tất cả **$0** — cloud + local download + offline docs trong repo này.
 
-> **Đã login ODC portal (Apps, Create, Download ODC Studio)?** → Bắt đầu tại **[`odc-studio-quickstart.md`](odc-studio-quickstart.md)** — map đúng UI bạn đang thấy.
+> **Đã login ODC portal (Apps, Create, Download ODC Studio)?** → **[`odc-studio-quickstart.md`](odc-studio-quickstart.md)** + Learn path **Becoming a web developer** map tại **[`odc-web-developer-path.md`](odc-web-developer-path.md)**.
 
 **Visual guide (Mermaid, color):** [`dev-environment-and-practice-diagrams.md`](dev-environment-and-practice-diagrams.md) — laptop ↔ ODC ↔ ngrok ↔ mock 24K, senior practice pillars.
 
@@ -41,10 +41,11 @@
 
 | Resource | Link | Senior focus |
 |----------|------|--------------|
-| **Learning paths** | https://learn.outsystems.com/training/decision/guided-paths | Reactive + Integration |
-| **Become a Reactive Web Developer** | Learn portal | Day 3 lab FM portal |
+| **Learning paths** | https://learn.outsystems.com/training/decision/guided-paths | ODC → **Becoming a web developer** |
+| **Becoming a web developer (ODC)** | Learn — ~11h / 161 lessons | Day 0–3 foundations — **map:** [`odc-web-developer-path.md`](odc-web-developer-path.md) |
+| **Become a Reactive Web Developer** | Learn — O11 | Path B nếu dùng Service Studio |
 | **Integrate with external systems** | Learn | Day 4 REST |
-| **Security** | Learn | RBAC, SiteId pattern |
+| **Security** | Learn (+ Role-based security trong Web path) | RBAC, SiteId pattern |
 | **Business Process Technology** | Learn | Day 5 escalation |
 | **Architecture Dashboard** | Docs: https://www.outsystems.com/evaluation-guide/ | Lifetime concepts |
 | **Documentation 11** | https://success.outsystems.com/documentation/11/ | Tra cứu |

@@ -144,8 +144,9 @@ flowchart LR
 
 ## Optional stretch (nếu có thêm thời gian sau 2 ngày)
 
+- Learn ODC: hoàn thành **Becoming a web developer** (còn lesson sau Day 3 lab) — [`resources/odc-web-developer-path.md`](resources/odc-web-developer-path.md)  
 - Forge: install chart component for FM KPI dashboard  
-- Learn path: OutSystems **Integration** + **Security** modules  
+- Learn path: **Integration** + **Processes** (BPT) ngoài Web Developer path  
 - Đọc case NTU Omnibus (OutSystems + campus) — analogy cho SJ IHL clients  
 - SQL tuning lab: `samples/reference/sql_asset_maintenance_queries.sql`  
 

@@ -7,6 +7,8 @@
 
 **Sơ đồ:** Dev environment + publish flow + 7-day practice → [`dev-environment-and-practice-diagrams.md`](dev-environment-and-practice-diagrams.md)
 
+**Khóa học chính thức ODC:** Enroll **Becoming a web developer** — map lesson ↔ ngày prep → [`odc-web-developer-path.md`](odc-web-developer-path.md).
+
 ---
 
 ## 1. Portal map (màn hình bạn thấy)
