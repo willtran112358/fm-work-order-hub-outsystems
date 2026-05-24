@@ -4,6 +4,8 @@
 
 > **Đã login ODC portal (Apps, Create, Download ODC Studio)?** → Bắt đầu tại **[`odc-studio-quickstart.md`](odc-studio-quickstart.md)** — map đúng UI bạn đang thấy.
 
+**Visual guide (Mermaid, color):** [`dev-environment-and-practice-diagrams.md`](dev-environment-and-practice-diagrams.md) — laptop ↔ ODC ↔ ngrok ↔ mock 24K, senior practice pillars.
+
 ---
 
 ## 1. OutSystems platform

@@ -9,6 +9,7 @@
 | When | Part | Chapter | File |
 |------|------|---------|------|
 | **Day 0** | Setup | ODC quickstart | [resources/odc-studio-quickstart.md](resources/odc-studio-quickstart.md) |
+| **Day 0** | Setup | **Visual: dev env + practice plan** | [resources/dev-environment-and-practice-diagrams.md](resources/dev-environment-and-practice-diagrams.md) |
 | **Day 1 AM** | I — Business | SJ context & revenue | [docs/01-business-context.md](docs/01-business-context.md) |
 | **Day 1 AM** | I — Business | JD mapping | [interview/03-jd-mapping.md](interview/03-jd-mapping.md) |
 | **Day 1 AM** | II — Architecture | As-Is | [docs/02-as-is-architecture.md](docs/02-as-is-architecture.md) |
@@ -42,10 +43,11 @@
 
 ## Part III — Hands-on (build on ODC / O11)
 
-1. [resources/free-hands-on.md](resources/free-hands-on.md) — Free tier, mock API, checklist  
-2. [resources/odc-studio-quickstart.md](resources/odc-studio-quickstart.md) — Portal map (Apps, Integrate, Deliver)  
-3. [03-day1-hands-on-lab.md](03-day1-hands-on-lab.md) — `FMWorkOrderHub` + REST mock  
-4. [resources/mock-server.js](resources/mock-server.js) — Local 24K API (+ ngrok for ODC)  
+1. [resources/dev-environment-and-practice-diagrams.md](resources/dev-environment-and-practice-diagrams.md) — **Mermaid:** ODC topology, 7-day / 2-day practice, senior pillars  
+2. [resources/free-hands-on.md](resources/free-hands-on.md) — Free tier, mock API, checklist  
+3. [resources/odc-studio-quickstart.md](resources/odc-studio-quickstart.md) — Portal map (Apps, Integrate, Deliver)  
+4. [03-day1-hands-on-lab.md](03-day1-hands-on-lab.md) — `FMWorkOrderHub` + REST mock  
+5. [resources/mock-server.js](resources/mock-server.js) — Local 24K API (+ ngrok for ODC)  
 
 ---
 

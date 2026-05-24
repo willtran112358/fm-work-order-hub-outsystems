@@ -27,9 +27,10 @@ cd senior-outsystems-prep-book
 ```
 
 1. Open [resources/odc-studio-quickstart.md](resources/odc-studio-quickstart.md) — you’re on ODC portal  
-2. **Create → App → Web** → `FMWorkOrderHub` → Publish  
-3. Mock API: `node resources/mock-server.js` (+ [ngrok](resources/free-hands-on.md) for ODC REST)  
-4. Follow [03-day1-hands-on-lab.md](03-day1-hands-on-lab.md)
+2. **Visual map:** [resources/dev-environment-and-practice-diagrams.md](resources/dev-environment-and-practice-diagrams.md) — ODC topology, 7-day practice, senior pillars  
+3. **Create → App → Web** → `FMWorkOrderHub` → Publish  
+4. Mock API: `node resources/mock-server.js` (+ [ngrok](resources/free-hands-on.md) for ODC REST)  
+5. Follow [03-day1-hands-on-lab.md](03-day1-hands-on-lab.md)
 
 ---
 
@@ -44,7 +45,7 @@ senior-outsystems-prep-book/
 ├── 04-day2-interview-prep.md
 ├── docs/                            ← Part I–II: Business & architecture
 ├── samples/                         ← Part IV: Engineering specs
-├── resources/                       ← ODC guide, mock API
+├── resources/                       ← ODC guide, mock API, **visual diagrams**
 └── interview/                       ← Part V: Q&A & senior round
 ```
 
@@ -74,13 +75,19 @@ Details: [docs/01-business-context.md](docs/01-business-context.md)
 ## Architecture at a glance
 
 ```mermaid
+%%{init: {'theme': 'base'}}%%
 flowchart LR
-    Users --> OSE[OutSystems apps]
-    OSE --> INT[Integration Services]
-    INT --> K24[24K / OMNI]
+    classDef ux fill:#c8e6c9,stroke:#388e3c,color:#1b5e20
+    classDef int fill:#fff9c4,stroke:#f9a825,color:#f57f17
+    classDef core fill:#e1bee7,stroke:#7b1fa2,color:#4a148c
+
+    Users["FM / Client users"] --> OSE["OutSystems apps"]:::ux
+    OSE --> INT["Integration Services"]:::int
+    INT --> K24["24K / OMNI"]:::core
 ```
 
-As-Is vs To-Be: [docs/04-as-is-to-be-summary.md](docs/04-as-is-to-be-summary.md)
+- **Dev environment & practice (color diagrams):** [resources/dev-environment-and-practice-diagrams.md](resources/dev-environment-and-practice-diagrams.md)  
+- As-Is vs To-Be: [docs/04-as-is-to-be-summary.md](docs/04-as-is-to-be-summary.md)
 
 ---
 

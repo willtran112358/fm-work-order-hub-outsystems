@@ -4,6 +4,27 @@
 
 **Giả định:** Bạn có **≥3 năm OutSystems** hoặc mạnh full-stack + 1 năm OSE — cần **depth senior** (architecture, review, production).
 
+**Sơ đồ màu (dev env + lộ trình practice):** [`resources/dev-environment-and-practice-diagrams.md`](resources/dev-environment-and-practice-diagrams.md)
+
+---
+
+## Tổng quan — 7 ngày (visual)
+
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': {'fontSize': '11px'}}}%%
+flowchart LR
+    classDef d1 fill:#ffcdd2,stroke:#c62828,color:#b71c1c
+    classDef d2 fill:#ffe0b2,stroke:#ef6c00,color:#e65100
+    classDef d3 fill:#fff9c4,stroke:#f9a825,color:#f57f17
+    classDef d4 fill:#dcedc8,stroke:#689f38,color:#33691e
+    classDef d5 fill:#c8e6c9,stroke:#388e3c,color:#1b5e20
+    classDef d6 fill:#b2dfdb,stroke:#00796b,color:#004d40
+    classDef d7 fill:#bbdefb,stroke:#1976d2,color:#0d47a1
+
+    D1["1 Business"]:::d1 --> D2["2 Arch"]:::d2 --> D3["3 FM lab"]:::d3
+    D3 --> D4["4 REST"]:::d4 --> D5["5 BPT"]:::d5 --> D6["6 Senior"]:::d6 --> D7["7 Mock"]:::d7
+```
+
 ---
 
 ## Tổng quan

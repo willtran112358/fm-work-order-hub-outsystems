@@ -5,6 +5,8 @@
 
 > SJ enterprise có thể dùng **O11 + Lifetime** hoặc **ODC** tùy contract. Prep của repo **ưu tiên ODC** nếu bạn đã login được portal này; O11 vẫn xem [`free-hands-on.md`](free-hands-on.md) §O11.
 
+**Sơ đồ:** Dev environment + publish flow + 7-day practice → [`dev-environment-and-practice-diagrams.md`](dev-environment-and-practice-diagrams.md)
+
 ---
 
 ## 1. Portal map (màn hình bạn thấy)
