@@ -4,7 +4,8 @@
 
 **Giả định:** Bạn có **≥3 năm OutSystems** hoặc mạnh full-stack + 1 năm OSE — cần **depth senior** (architecture, review, production).
 
-**Sơ đồ màu (dev env + lộ trình practice):** [`resources/dev-environment-and-practice-diagrams.md`](resources/dev-environment-and-practice-diagrams.md)
+**Sơ đồ màu (dev env + lộ trình practice):** [`resources/dev-environment-and-practice-diagrams.md`](resources/dev-environment-and-practice-diagrams.md)  
+**Learn ODC (Becoming a web developer):** [`resources/odc-web-developer-path.md`](resources/odc-web-developer-path.md)
 
 ---
 

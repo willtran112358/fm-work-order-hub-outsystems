@@ -46,7 +46,10 @@ senior-outsystems-prep-book/
 ├── 04-day2-interview-prep.md
 ├── docs/                            ← Part I–II: Business & architecture
 ├── samples/                         ← Part IV: Engineering specs
-├── resources/                       ← ODC guide, mock API, **visual diagrams**
+├── resources/                       ← ODC guide, **web developer path map**, mock API, diagrams
+│   ├── odc-web-developer-path.md    ← Learn Becoming a web developer ↔ labs
+│   ├── odc-studio-quickstart.md
+│   └── dev-environment-and-practice-diagrams.md
 └── interview/                       ← Part V: Q&A & senior round
 ```
 

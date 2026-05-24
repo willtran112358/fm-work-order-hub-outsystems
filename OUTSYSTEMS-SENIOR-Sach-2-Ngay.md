@@ -36,6 +36,8 @@ gantt
 **ODC (bạn đã login portal):**
 
 - [x] ODC portal — Apps page
+- [ ] Enroll Learn **Becoming a web developer** — [`resources/odc-web-developer-path.md`](resources/odc-web-developer-path.md) §1–2
+- [ ] ODC Capabilities Quiz (trong path)
 - [ ] [`resources/odc-studio-quickstart.md`](resources/odc-studio-quickstart.md) — đọc 10 phút
 - [ ] **Download ODC Studio** → cài → Sign in
 - [ ] **Create → App → Web** → `FMWorkOrderHub` → Publish lần đầu

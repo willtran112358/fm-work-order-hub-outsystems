@@ -4,7 +4,7 @@
 
 > Render tốt trên **GitHub**, **VS Code/Cursor** (Markdown preview), **Obsidian**. Dùng theme `base` + `classDef` để màu nhẹ, dễ in.
 
-**Liên quan:** [`odc-studio-quickstart.md`](odc-studio-quickstart.md) · [`free-hands-on.md`](free-hands-on.md) · [`OUTSYSTEMS-SENIOR-Prep-7-Ngay.md`](../OUTSYSTEMS-SENIOR-Prep-7-Ngay.md)
+**Liên quan:** [`odc-web-developer-path.md`](odc-web-developer-path.md) · [`odc-studio-quickstart.md`](odc-studio-quickstart.md) · [`free-hands-on.md`](free-hands-on.md) · [`OUTSYSTEMS-SENIOR-Prep-7-Ngay.md`](../OUTSYSTEMS-SENIOR-Prep-7-Ngay.md)
 
 ---
 
@@ -325,12 +325,13 @@ flowchart TD
 
 | Bước | Lệnh / hành động |
 |------|------------------|
-| 1 | Portal → **Download ODC Studio** → Sign in |
-| 2 | **Create → App → Web** → `FMWorkOrderHub` → Publish |
-| 3 | `cd resources && node mock-server.js` |
-| 4 | Terminal 2: `ngrok http 3000` → copy HTTPS URL |
-| 5 | **INTEGRATE → Connections** → REST → Base URL = ngrok |
-| 6 | Lab theo [`03-day1-hands-on-lab.md`](../03-day1-hands-on-lab.md) |
+| 1 | Learn → enroll **Becoming a web developer** → ODC quiz — [`odc-web-developer-path.md`](odc-web-developer-path.md) |
+| 2 | Portal → **Download ODC Studio** → Sign in |
+| 3 | **Create → App → Web** → `FMWorkOrderHub` → Publish |
+| 4 | `cd resources && node mock-server.js` |
+| 5 | Terminal 2: `ngrok http 3000` → copy HTTPS URL |
+| 6 | **INTEGRATE → Connections** → REST → Base URL = ngrok |
+| 7 | Lab theo [`03-day1-hands-on-lab.md`](../03-day1-hands-on-lab.md) |
 
 ---
 

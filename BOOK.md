@@ -9,6 +9,7 @@
 | When | Part | Chapter | File |
 |------|------|---------|------|
 | **Day 0** | Setup | ODC quickstart | [resources/odc-studio-quickstart.md](resources/odc-studio-quickstart.md) |
+| **Day 0** | Setup | **Learn: Becoming a web developer (ODC)** | [resources/odc-web-developer-path.md](resources/odc-web-developer-path.md) |
 | **Day 0** | Setup | **Visual: dev env + practice plan** | [resources/dev-environment-and-practice-diagrams.md](resources/dev-environment-and-practice-diagrams.md) |
 | **Day 1 AM** | I — Business | SJ context & revenue | [docs/01-business-context.md](docs/01-business-context.md) |
 | **Day 1 AM** | I — Business | JD mapping | [interview/03-jd-mapping.md](interview/03-jd-mapping.md) |
@@ -44,10 +45,11 @@
 ## Part III — Hands-on (build on ODC / O11)
 
 1. [resources/dev-environment-and-practice-diagrams.md](resources/dev-environment-and-practice-diagrams.md) — **Mermaid:** ODC topology, 7-day / 2-day practice, senior pillars  
-2. [resources/free-hands-on.md](resources/free-hands-on.md) — Free tier, mock API, checklist  
-3. [resources/odc-studio-quickstart.md](resources/odc-studio-quickstart.md) — Portal map (Apps, Integrate, Deliver)  
-4. [03-day1-hands-on-lab.md](03-day1-hands-on-lab.md) — `FMWorkOrderHub` + REST mock  
-5. [resources/mock-server.js](resources/mock-server.js) — Local 24K API (+ ngrok for ODC)  
+2. [resources/odc-web-developer-path.md](resources/odc-web-developer-path.md) — Official Learn path ↔ FM lab / 7-day map + AI review checklist  
+3. [resources/free-hands-on.md](resources/free-hands-on.md) — Free tier, mock API, checklist  
+4. [resources/odc-studio-quickstart.md](resources/odc-studio-quickstart.md) — Portal map (Apps, Integrate, Deliver)  
+5. [03-day1-hands-on-lab.md](03-day1-hands-on-lab.md) — `FMWorkOrderHub` + REST mock  
+6. [resources/mock-server.js](resources/mock-server.js) — Local 24K API (+ ngrok for ODC)  
 
 ---
 
