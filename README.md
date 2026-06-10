@@ -1,8 +1,19 @@
 # Senior OutSystems Prep Book
 
-**A 2-day technical book** to prepare for **Senior OutSystems Developer** interviews — written around **built environment / smart infrastructure** (Surbana Jurong context: **24K**, **OMNI**, **ODC**).
+**A 2-day technical book** for **Senior OutSystems Developer** interviews — two practice tracks on **ODC / O11**, shared resources, specs, and interview prep.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+
+---
+
+## Two tracks — pick one interview
+
+| Track | Context | Hands-on app | Start here |
+|-------|---------|--------------|------------|
+| **FM / built environment** | Surbana Jurong — **24K**, **OMNI** | `FMWorkOrderHub` | [BOOK.md](BOOK.md) → [OUTSYSTEMS-SENIOR-Sach-2-Ngay.md](OUTSYSTEMS-SENIOR-Sach-2-Ngay.md) |
+| **Banking** | Client bid, core banking + ERP integration | `OnlineBankingApp` / `BranchQueue` | [banking/README.md](banking/README.md) → [banking/OUTSYSTEMS-DEV-Sach-2-Ngay.md](banking/OUTSYSTEMS-DEV-Sach-2-Ngay.md) |
+
+Shared ODC setup: [resources/odc-studio-quickstart.md](resources/odc-studio-quickstart.md) · [resources/odc-web-developer-path.md](resources/odc-web-developer-path.md)
 
 ---
 
@@ -11,11 +22,11 @@
 | | |
 |--|--|
 | **Format** | Markdown “book” — business → architecture → labs → specs → interview |
-| **Timeline** | **2 days** (main) · [7 days](OUTSYSTEMS-SENIOR-Prep-7-Ngay.md) (extended) |
-| **Hands-on** | Build `FMWorkOrderHub` on **OutSystems Developer Cloud (ODC)** + mock 24K REST API |
-| **Not included** | `.oml` files, proprietary SJ code — you implement from specs |
+| **Timeline** | **2 days** (main) · [7 days](OUTSYSTEMS-SENIOR-Prep-7-Ngay.md) (extended, FM track) |
+| **Not included** | `.oml` files, proprietary client code — you implement from specs |
 
-**Start reading:** [BOOK.md](BOOK.md) (table of contents) → [OUTSYSTEMS-SENIOR-Sach-2-Ngay.md](OUTSYSTEMS-SENIOR-Sach-2-Ngay.md) (day-by-day schedule).
+**FM track start:** [BOOK.md](BOOK.md) → [OUTSYSTEMS-SENIOR-Sach-2-Ngay.md](OUTSYSTEMS-SENIOR-Sach-2-Ngay.md)  
+**Banking track start:** [banking/README.md](banking/README.md)
 
 ---
 
@@ -39,18 +50,17 @@ cd senior-outsystems-prep-book
 
 ```
 senior-outsystems-prep-book/
-├── BOOK.md                          ← Table of contents (start here)
-├── OUTSYSTEMS-SENIOR-Sach-2-Ngay.md ← 2-day storyline
-├── OUTSYSTEMS-SENIOR-Prep-7-Ngay.md ← Extended edition
-├── 03-day1-hands-on-lab.md          ← Labs
-├── 04-day2-interview-prep.md
-├── docs/                            ← Part I–II: Business & architecture
-├── samples/                         ← Part IV: Engineering specs
-├── resources/                       ← ODC guide, **web developer path map**, mock API, diagrams
-│   ├── odc-web-developer-path.md    ← Learn Becoming a web developer ↔ labs
-│   ├── odc-studio-quickstart.md
-│   └── dev-environment-and-practice-diagrams.md
-└── interview/                       ← Part V: Q&A & senior round
+├── BOOK.md                          ← FM track TOC
+├── OUTSYSTEMS-SENIOR-Sach-2-Ngay.md ← FM 2-day storyline
+├── banking/                         ← Banking track (Savannah GA / core banking)
+│   ├── README.md
+│   ├── OUTSYSTEMS-DEV-Sach-2-Ngay.md
+│   ├── 03-day1-hands-on-lab.md
+│   └── samples/
+├── docs/                            ← FM business & architecture
+├── samples/                         ← FM engineering specs
+├── resources/                       ← Shared ODC guides, mock API, diagrams
+└── interview/                       ← Senior round Q&A
 ```
 
 ---
@@ -58,7 +68,8 @@ senior-outsystems-prep-book/
 ## Who it’s for
 
 - **Senior OutSystems Developer** candidates (3+ years OSE or strong full-stack + low-code)
-- Roles at **infrastructure / FM / digital twin** consultancies (e.g. Surbana Technologies — OutSystems partner since 2018)
+- **FM track:** infrastructure / digital twin consultancies (e.g. Surbana Jurong — 24K, OMNI)
+- **Banking track:** client-delivery roles — core banking, ERP, integration layer, mentoring juniors
 - Developers using **ODC** or **O11 Personal Environment** for free practice
 
 ---

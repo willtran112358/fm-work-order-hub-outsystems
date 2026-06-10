@@ -81,6 +81,25 @@
 
 ---
 
+## Banking track (alternate 2-day path)
+
+Use this instead of Parts I–V above when prepping for **banking / client-bid** roles (core banking, ERP, Savannah GA context).
+
+| When | File |
+|------|------|
+| Overview + diagrams | [banking/README.md](banking/README.md) |
+| 2-day schedule | [banking/OUTSYSTEMS-DEV-Sach-2-Ngay.md](banking/OUTSYSTEMS-DEV-Sach-2-Ngay.md) |
+| Business | [banking/00-business-banking-lowcode.md](banking/00-business-banking-lowcode.md) |
+| Architecture | [banking/01-architecture-outsystems.md](banking/01-architecture-outsystems.md) |
+| DE bridge | [banking/02-bridge-de-to-outsystems.md](banking/02-bridge-de-to-outsystems.md) |
+| Labs | [banking/03-day1-hands-on-lab.md](banking/03-day1-hands-on-lab.md) · [banking/04-day2-interview-prep.md](banking/04-day2-interview-prep.md) |
+| ODC diagrams | [banking/resources/odc-dev-environment-diagrams.md](banking/resources/odc-dev-environment-diagrams.md) |
+| Specs | [banking/samples/](banking/samples/) |
+
+Shared ODC setup: [resources/odc-studio-quickstart.md](resources/odc-studio-quickstart.md) · [resources/odc-web-developer-path.md](resources/odc-web-developer-path.md)
+
+---
+
 ## Disclaimer
 
 Public-source business research for interview prep only — not affiliated with Surbana Jurong. No proprietary SJ or OutSystems source code included.

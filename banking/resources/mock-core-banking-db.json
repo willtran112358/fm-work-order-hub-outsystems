@@ -1,0 +1,20 @@
+{
+  "customers": [
+    {
+      "cif": "CIF001",
+      "fullName": "Nguyen Van A",
+      "kycStatus": "VERIFIED",
+      "segment": "RETAIL",
+      "mobile": "090****123"
+    },
+    {
+      "cif": "CIF002",
+      "fullName": "Tran Thi B",
+      "kycStatus": "PENDING",
+      "segment": "PRIORITY",
+      "mobile": "091****456"
+    }
+  ],
+  "scores": [],
+  "loans": []
+}
