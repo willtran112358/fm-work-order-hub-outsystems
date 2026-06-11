@@ -1,4 +1,4 @@
-# Engineering spec (no code): Entity model — Facility & Asset
+# Delivered specification: Entity model — Facility & Asset
 
 **Module:** `FM_Domain` (foundation — shared entities)  
 **Consumers:** `FMWorkOrderHub`, `FieldInspection`, `ClientPortal`

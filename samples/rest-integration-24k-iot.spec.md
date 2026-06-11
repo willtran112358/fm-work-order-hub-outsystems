@@ -1,4 +1,4 @@
-# Engineering spec (no code): REST integration — 24K IoT alerts
+# Delivered specification: REST integration — 24K IoT alerts
 
 **Module:** `IntegrationServices` (foundation — no UI)  
 **Consumers:** `FMWorkOrderHub`, `AlertConsole` lab

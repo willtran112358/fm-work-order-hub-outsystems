@@ -1,4 +1,4 @@
-# Engineering spec (no code): FM Work Order Portal
+# Delivered specification: FM Work Order Portal
 
 **Application:** `FMWorkOrderHub` (Reactive Web)  
 **Foundation:** `FM_Domain`, `IntegrationServices`
