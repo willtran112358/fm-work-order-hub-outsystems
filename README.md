@@ -22,8 +22,8 @@ A **senior OutSystems engineer's solution delivery package** for the **FM Work O
 | **Reference patterns (banking)** | [reference/banking/](reference/banking/) |
 
 ```bash
-git clone https://github.com/willtran112358/senior-outsystems-prep-book.git
-cd senior-outsystems-prep-book
+git clone https://github.com/willtran112358/fm-work-order-hub-outsystems.git
+cd fm-work-order-hub-outsystems
 ```
 
 ---
@@ -103,7 +103,7 @@ flowchart TB
 ## Repository structure
 
 ```
-senior-outsystems-prep-book/
+fm-work-order-hub-outsystems/
 ├── SOLUTION.md                 ← Master index
 ├── README.md                   ← This file
 ├── delivery/                   ← Solution architecture (12 chapters)

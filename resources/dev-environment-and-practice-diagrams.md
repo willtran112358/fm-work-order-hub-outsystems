@@ -23,7 +23,7 @@ flowchart TB
         STU["ODC Studio<br/>FMWorkOrderHub"]:::local
         NODE["node mock-server.js<br/>:3000"]:::mock
         NG["ngrok<br/>HTTPS tunnel"]:::tunnel
-        GIT["senior-outsystems-prep-book<br/>specs + interview"]:::local
+        GIT["fm-work-order-hub-outsystems<br/>solution delivery"]:::local
     end
 
     subgraph odc["OutSystems Developer Cloud"]
