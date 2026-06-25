@@ -5,7 +5,8 @@
 **When:** Thu **25 Jun 2026**, 15:00–16:00 (GMT+7 / Indochina Time)  
 **Where:** [Microsoft Teams](https://teams.live.com/meet/9329469970608?p=iBTJ8NNOxrs4bBkA2j)  
 **Job:** [OutSystems Senior Developer — SJ](https://aniday.com/job-view/job-15661.html)  
-**Your portfolio:** [fm-work-order-hub-outsystems](https://github.com/willtran112358/fm-work-order-hub-outsystems)
+**Your portfolio:** [fm-work-order-hub-outsystems](https://github.com/willtran112358/fm-work-order-hub-outsystems)  
+**Team & cert prep:** [sj-team-profiles-cert-and-pm-prep.md](sj-team-profiles-cert-and-pm-prep.md) — Nam (Architect), Duc Anh (Dev), RACI, OutSystems certs
 
 > **Disclaimer:** Public-source research for interview prep only — not affiliated with Surbana Jurong.
 
@@ -716,7 +717,37 @@ flowchart TD
 
 ---
 
-## 21. Repo deep-dive map (if Ivan asks "show me your work")
+## 21. Likely teammates (know before Ivan asks "how would you fit the squad?")
+
+| Person | Role @ SJ | Strength | You collaborate on |
+|--------|-----------|----------|-------------------|
+| **Nam Huỳnh Nguyễn Phương** | Solutions Architect (Dec 2025) | Associate Tech Lead · ex-OutSystems PS TL · 3-layer Canvas · CI/CD | Architecture sign-off, Lifetime, estimation |
+| **Luong Trac Duc Anh** | OutSystems Developer (Mar 2026) | Forge **Multipart Upload Reactive** · NTT e-MOI · SQL/S3 | Reactive UI, file upload for field inspection |
+
+```mermaid
+%%{init: {'theme': 'base'}}%%
+flowchart LR
+    classDef arch fill:#42a5f5,stroke:#1565c0,color:#fff
+    classDef senior fill:#66bb6a,stroke:#2e7d32,color:#fff
+    classDef dev fill:#ffa726,stroke:#ef6c00,color:#fff
+
+    NAM["Nam<br/>Canvas · CI/CD"]:::arch
+    YOU["You<br/>Integration · security · review"]:::senior
+    DUC["Duc Anh<br/>UI · Forge upload"]:::dev
+
+    NAM -->|"Arch decisions"| YOU
+    YOU -->|"Stories · pairing"| DUC
+    YOU -->|"REST · SiteId RBAC"| WO["FM Work Order Hub"]
+    DUC --> WO
+```
+
+**Say to Ivan:** "I'd pair with Nam on canvas and deployment standards, mentor Duc Anh on integration patterns, and own `IntegrationServices` plus code review so we don't fragment like the old silo apps."
+
+Full profiles, RACI, PM ceremonies, cert prep: [sj-team-profiles-cert-and-pm-prep.md](sj-team-profiles-cert-and-pm-prep.md)
+
+---
+
+## 22. Repo deep-dive map (if Ivan asks "show me your work")
 
 | Topic | File |
 |-------|------|
@@ -732,7 +763,7 @@ flowchart TD
 
 ---
 
-## 22. 90-second closing (memorize)
+## 23. 90-second closing (memorize)
 
 > "I'm excited about Surbana Technologies because you're one of few built-environment firms with both a **digital twin platform** and an **OutSystems partnership** — the Senior role is about turning that into **repeatable client delivery**. I'd bring full SDLC ownership, integration discipline with 24K, site-scoped security, and the mentoring needed to grow your OSE bench. I've documented an FM Work Order Hub approach in my GitHub repo and I'm ready to contribute from day one."
 
