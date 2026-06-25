@@ -1,14 +1,77 @@
-# Interview Prep — Head of Tech @ Surbana Jurong (OutSystems Senior)
+# THE ONE FILE — Head of Tech Technical Call Prep
+
+> **Read only this file** for Ivan's technical interview. **27+ Mermaid charts** · mind maps · sequence diagrams · decision trees.  
+> Optional extra (team PM / certs): [sj-team-profiles-cert-and-pm-prep.md](sj-team-profiles-cert-and-pm-prep.md)
 
 **Candidate:** Tran Manh Tu · `willtran11235@gmail.com` · 0838810018  
 **Interviewer:** Ivan Lim (`ivan.limwy@surbanajurong.com`) — Head of Tech  
 **When:** Thu **25 Jun 2026**, 15:00–16:00 (GMT+7 / Indochina Time)  
 **Where:** [Microsoft Teams](https://teams.live.com/meet/9329469970608?p=iBTJ8NNOxrs4bBkA2j)  
 **Job:** [OutSystems Senior Developer — SJ](https://aniday.com/job-view/job-15661.html)  
-**Your portfolio:** [fm-work-order-hub-outsystems](https://github.com/willtran112358/fm-work-order-hub-outsystems)  
-**Team & cert prep:** [sj-team-profiles-cert-and-pm-prep.md](sj-team-profiles-cert-and-pm-prep.md) — Nam (Architect), Duc Anh (Dev), RACI, OutSystems certs
+**Portfolio:** [github.com/willtran112358/fm-work-order-hub-outsystems](https://github.com/willtran112358/fm-work-order-hub-outsystems)
 
 > **Disclaimer:** Public-source research for interview prep only — not affiliated with Surbana Jurong.
+
+---
+
+## How to read this file (pick your time)
+
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': {'primaryColor':'#e8eaf6','primaryTextColor':'#1a237e','primaryBorderColor':'#3f51b5','lineColor':'#7986cb','secondaryColor':'#e3f2fd','tertiaryColor':'#c8e6c9'}}}%%
+flowchart TB
+    classDef cram fill:#ff8a65,stroke:#e64a19,color:#ffffff,stroke-width:2px
+    classDef std fill:#64b5f6,stroke:#1565c0,color:#ffffff,stroke-width:2px
+    classDef deep fill:#81c784,stroke:#2e7d32,color:#ffffff,stroke-width:2px
+    classDef sec fill:#fff9c4,stroke:#f9a825,color:#e65100
+
+    START["How much time?"]:::cram
+
+    START -->|"5 min before call"| C5["§0 mindmap + 30s pitch<br/>§3 whiteboard arch<br/>§19 top 15 Q&A<br/>§23 closing"]:::cram
+    START -->|"30 min"| C30["§0–1 flow<br/>§3–5 alert→WO<br/>§8 security<br/>§12 code review<br/>§16 questions"]:::std
+    START -->|"60 min full"| C60["Read §0 → §23 in order<br/>Skim repo §22 links<br/>Rehearse whiteboard §3"]:::deep
+
+    C5 --> CORE["Golden rule:<br/>OSE = experience layer<br/>24K = system of record"]:::sec
+    C30 --> CORE
+    C60 --> CORE
+```
+
+### Visual map — every section at a glance
+
+```mermaid
+%%{init: {'theme': 'base'}}%%
+mindmap
+  root((Head of Tech<br/>Prep §0–23))
+    Start
+      §0 One glance mindmap
+      §1 Interview flow
+      §20 Day-of checklist
+    Business
+      §2 SJ context
+      §21 Teammates Nam Duc Anh
+    Architecture
+      §3 Whiteboard To-Be
+      §4 App portfolio
+      §5 Alert to WO sequence
+      §18 Tech stack
+    Technical
+      §6 Four OSE layers
+      §7 REST APIM
+      §8 Security SiteId
+      §9 Performance
+      §10 BPT escalation
+    Senior
+      §11 CI/CD DoD
+      §12 Code review bugs
+      §13 Decision tree
+      §14 STAR stories
+      §15 Roadmap Gantt
+    Close
+      §16 Ask Ivan
+      §17 Red flags
+      §19 Top 15 Q&A
+      §22 Repo links
+      §23 90s closing
+```
 
 ---
 
@@ -695,15 +758,22 @@ flowchart TB
 ## 20. Day-of checklist
 
 ```mermaid
+%%{init: {'theme': 'base'}}%%
 flowchart TD
-    START["T-60 min"] --> T1["Re-read §0 pitch + §3 architecture"]
-    T1 --> T2["Open repo: delivery/12-diagrams-atlas.md"]
-    T2 --> T3["Test Teams link + mic/camera"]
-    T3 --> T4["Paper: SiteId security + idempotency"]
-    T4 --> JOIN["T-5 min: Join Teams"]
-    JOIN --> INTRO["Intro: name, years OSE, FM repo ready"]
-    INTRO --> WB["Whiteboard: §3 diagram"]
-    WB --> CLOSE["Close: §16 questions + thank Ivan"]
+    classDef step fill:#e3f2fd,stroke:#1565c0,color:#0d47a1
+    classDef key fill:#c8e6c9,stroke:#388e3c,color:#1b5e20
+
+    START["T-60 min"]:::step
+    T1["§0 pitch + §3 architecture"]:::key
+    T2["delivery/12-diagrams-atlas.md"]:::step
+    T3["Teams link + mic"]:::step
+    T4["SiteId + idempotency on paper"]:::key
+    JOIN["T-5 min Join"]:::step
+    INTRO["Intro + FM repo"]:::step
+    WB["Whiteboard §3"]:::key
+    CLOSE["§16 questions + thank Ivan"]:::key
+
+    START --> T1 --> T2 --> T3 --> T4 --> JOIN --> INTRO --> WB --> CLOSE
 ```
 
 | Item | Done |

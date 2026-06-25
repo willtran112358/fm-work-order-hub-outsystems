@@ -140,12 +140,12 @@ Specs: [samples/work-order-fm-portal.spec.md](samples/work-order-fm-portal.spec.
 
 Details: [docs/01-business-context.md](docs/01-business-context.md)
 
-### Interview & team prep
+### Interview prep
 
 | Guide | Use when |
 |-------|----------|
-| [docs/interview-prep-head-of-tech-ivan-sj.md](docs/interview-prep-head-of-tech-ivan-sj.md) | Head of Tech interview (architecture, whiteboard) |
-| [docs/sj-team-profiles-cert-and-pm-prep.md](docs/sj-team-profiles-cert-and-pm-prep.md) | Team profiles (Nam, Duc Anh), PM/RACI, OutSystems cert prep |
+| **[docs/interview-prep-head-of-tech-ivan-sj.md](docs/interview-prep-head-of-tech-ivan-sj.md)** | **THE ONE FILE** — Ivan Head of Tech technical call (27+ Mermaid charts) |
+| [docs/sj-team-profiles-cert-and-pm-prep.md](docs/sj-team-profiles-cert-and-pm-prep.md) | Optional — team profiles, PM/RACI, OutSystems certs |
 
 ---
 
